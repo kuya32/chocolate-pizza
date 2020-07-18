@@ -1,0 +1,136 @@
+* {
+  outline: dotted 1px blue;
+}
+
+header {
+  height: 50px;
+  overflow: hidden;
+}
+
+nav {
+  margin: 0 auto;
+  width: 960px;
+}
+
+nav img:first-child {
+  float: left;
+}
+
+nav p {
+  position: relative;
+  top: 23px;
+  right: 98px;
+  float:left;
+  font-size: x-small;
+  margin-top: 5px;
+  font-family: 'Courier New';
+  width: 25%;
+  box-sizing: border-box;
+}
+
+nav h1 {
+  float: left;
+  font-size: x-large;
+  font-family: cursive;
+}
+
+nav > ul > li {
+  position: relative;
+  float: right;
+  top: 10px;
+  right: 10px;
+}
+
+
+main {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+main h1 {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#first {
+  float: left;
+  margin-bottom: 15px;
+}
+
+#first p {
+  opacity: .7;
+  font-size: small;
+  font-family: 'Courier New';
+}
+
+#print {
+  float: right;
+  opacity: .7;
+}
+
+#print p {
+  float: right;
+  padding-left: 5px;
+}
+
+#directions li {
+  margin: 15px 0px 15px 0px;
+  opacity: .9;
+}
+
+#ingredientsOne {
+  float: left;
+  position: relative;
+  font-size: x-large;
+  left: 100px;
+  bottom: 240px;
+  list-style-type: circle;
+}
+
+#ingredientsTwo {
+  float: right;
+  position: relative;
+  font-size: x-large;
+  right: 100px;
+  bottom: 240px;
+  list-style-type: circle;
+}
+
+#vanessa {
+  float: left;
+  position: relative;
+  bottom: 75px;
+}
+
+#stevenson {
+  position: relative;
+  left: 80px;
+  bottom: 70px;
+}
+
+#stevenson h2 {
+  padding-bottom: 10px;
+}
+
+button {
+  float: right;
+  color: whitesmoke;
+  background-color: red;
+  opacity: .7;
+  width: 150px;
+  height: 40px;
+  position: relative;
+  bottom: 70px;
+}
+
+footer {
+  clear: both;
+  height: 100px;
+  text-align: center;
+}
+
+footer div {
+  margin-top: 15px;
+  opacity: .7;
+}
